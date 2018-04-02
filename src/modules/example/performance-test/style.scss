@@ -1,0 +1,11 @@
+.performance-test{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height:100%;
+	width:100%;
+	.program-ui{
+		flex: 0 0 calc(50% - 6px);
+		background-color:#fff;
+	}
+}
