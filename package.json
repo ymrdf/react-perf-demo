@@ -87,7 +87,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
     ],
     "moduleNameMapper": {
-      "^@Examples(.*)$":"<rootDir>/src/modules/example$1"
+      "^@Examples(.*)$": "<rootDir>/src/modules/example$1"
     },
     "moduleFileExtensions": [
       "web.js",

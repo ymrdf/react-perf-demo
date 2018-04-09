@@ -1,9 +1,9 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import propTypes from "prop-types";
 
 import "./style.css";
 
-class ListItem extends PureComponent{
+class ListItem extends Component{
 	render() {
 		const { title, description } = this.props;
 		return (

@@ -1,0 +1,27 @@
+.optimize{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	.title{
+		flex: 0 0 80px;
+		padding: 0px 12px;
+		border-bottom: 1px solid #e8e8e8;
+		color: #434343;
+		font-size: 18px;
+		line-height: 80px;
+	}
+	.actions{
+		flex: 0 0 56px;
+		margin:12px 0;
+		padding:12px;
+	}
+	.info{
+		flex: 0 0 150px;
+		padding: 12px 45px;
+	}
+	.list{
+		flex: 0 0 calc(100% - 340px);
+		padding: 12px;
+		overflow: hidden;
+	}
+}

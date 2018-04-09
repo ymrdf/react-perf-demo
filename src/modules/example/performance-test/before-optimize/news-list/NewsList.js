@@ -1,11 +1,11 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import propTypes from "prop-types";
 
 import NewsListItem from "./NewsListItem";
 
 import "./style.css";
 
-class NewsList extends PureComponent{
+class NewsList extends Component{
 	render() {
 		const { newsList } = this.props;
 		return (
@@ -13,7 +13,6 @@ class NewsList extends PureComponent{
 				{
 					newsList.map( item => <NewsListItem key={item.title} title={item.title} description={item.content} />)
 				}
-				
 			</div>
 		);
 	}

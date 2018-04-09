@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import { Button, Row, Col } from "antd";
 import NewsList from "./news-list";
 import NewsInfo from "./news-info";
@@ -12,7 +12,7 @@ const newsList = new Array(1000).fill(null).map((item, index) => ({
 	content: "Mainly intended for internal purposes, this technology allows for building native apps for Android, iOS, and Window Phone using JavaScript and React.JS components. RN very quickly went out into the big IT world and set its place among other Frontend technologies. "
 }));
 
-class PostOptimize extends PureComponent{
+class BeforeOptimize extends Component{
 
 	constructor(props) {
 		super(props);
@@ -56,7 +56,7 @@ class PostOptimize extends PureComponent{
 		const { newsList, newsInfo } = this.state;
 		return (
 			<div className="optimize">
-				<header className="title">The post optimized component</header>
+				<header className="title">The component before optimize</header>
 				<div className="actions">
 					<Row gutter={16}>
 						<Col className="gutter-row" span={6}>
@@ -81,5 +81,5 @@ class PostOptimize extends PureComponent{
 	}
 }
 
-export default PostOptimize;
+export default BeforeOptimize;
 
