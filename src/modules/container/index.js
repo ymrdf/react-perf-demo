@@ -40,7 +40,7 @@ class Container extends PureComponent{
 					<Footer style={styleSheet.footer}>
 						React performance demo.
 						<br />
-						<a href="http://www.zhihu.com" target="_blank">Click here to get the paper of this demo.</a>
+						<a href="https://zhuanlan.zhihu.com/p/34632531" target="_blank">Click here to get the paper of this demo.</a>
 					</Footer>
 				</Layout>
 			</Layout>
