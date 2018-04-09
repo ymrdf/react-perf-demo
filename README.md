@@ -1,1 +1,1 @@
-The paper of the demo: https://zhuanlan.zhihu.com/p/34632531
+The paper of this demo: https://zhuanlan.zhihu.com/p/34632531
